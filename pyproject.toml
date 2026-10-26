@@ -1,0 +1,19 @@
+[project]
+name = "transaction-forecasting"
+version = "0.1.0"
+description = "Forecasting daily wallet transaction volumes 4 weeks ahead"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "statsmodels>=0.14",
+    "matplotlib>=3.8",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
