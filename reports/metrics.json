@@ -1,0 +1,17 @@
+{
+  "gradient_boosting": {
+    "mean": 3.19,
+    "std": 0.48,
+    "max": 4.11
+  },
+  "holt_winters": {
+    "mean": 8.58,
+    "std": 1.28,
+    "max": 10.12
+  },
+  "seasonal_naive": {
+    "mean": 11.05,
+    "std": 2.83,
+    "max": 16.6
+  }
+}
